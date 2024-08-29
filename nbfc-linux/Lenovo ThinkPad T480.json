@@ -1,0 +1,55 @@
+{
+ "NotebookModel": "LENOVO 20L6S24M17",
+ "Author": "matute",
+ "EcPollInterval": 3000,
+ "ReadWriteWords": false,
+ "CriticalTemperature": 97,
+ "FanConfigurations": [
+	{
+	 "ReadRegister": 133,
+	 "WriteRegister": 47,
+	 "MinSpeedValue": 0,
+	 "MaxSpeedValue": 7,
+	 "IndependentReadMinMaxValues": false,
+	 "MinSpeedValueRead": 0,
+	 "MaxSpeedValueRead": 0,
+	 "ResetRequired": true,
+	 "FanSpeedResetValue": 128,
+	 "FanDisplayName": "System Fan",
+	 "TemperatureThresholds": [
+	  {
+	   "UpThreshold": 50,
+	   "DownThreshold": 0,
+	   "FanSpeed": 0.0
+	  },
+	  {
+	   "UpThreshold": 56,
+	   "DownThreshold": 41,
+	   "FanSpeed": 20.1970444
+	  },
+	  {
+	   "UpThreshold": 65,
+	   "DownThreshold": 50,
+	   "FanSpeed": 40.0
+	  },
+	  {
+	   "UpThreshold": 75,
+	   "DownThreshold": 57,
+	   "FanSpeed": 60.0000038
+	  },
+	  {
+	   "UpThreshold": 85,
+	   "DownThreshold": 69,
+	   "FanSpeed": 80.0
+	  },
+	  {
+	   "UpThreshold": 95,
+	   "DownThreshold": 78,
+	   "FanSpeed": 100.0
+	  }
+	 ],
+	 "FanSpeedPercentageOverrides": []
+	}
+ ],
+ "RegisterWriteConfigurations": []
+}
